@@ -1,6 +1,6 @@
-asmtut: asmtut_8.o
-	ld -o asmtut_8 asmtut_8.o
-asmtut.o: asmtut_8.s
-	as -o asmtut_8.o asmtut_8.s
+asmtut: asmtut_9.o
+	ld -o asmtut_9 asmtut_9.o
+asmtut.o: asmtut_9.s
+	as -o asmtut_9.o asmtut_9.s
 clean:
-	rm *.o asmtut_8
+	rm *.o asmtut_9
